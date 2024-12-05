@@ -47,6 +47,7 @@ import TrainingList from './pages/Performance/TrainingList';
 import TrainingType from './pages/Performance/TrainingType';
 import Promotions from './pages/Performance/Promotions';
 import Resignations from './pages/Performance/Resignations';
+import Invoice from './pages/Invoice';
 
 
 
@@ -104,6 +105,9 @@ function App() {
           <Route path="training-type" element={<TrainingType />} />
           <Route path="promotions" element={<Promotions />} />
           <Route path="resignations" element={<Resignations />} />
+
+          <Route path="invoice" element={<Invoice />} />
+
 
 
           <Route path="client" element={<Client />} />

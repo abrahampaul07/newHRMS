@@ -26,6 +26,11 @@ const Layout = () => {
       path: '/payroll', 
       icon: <DollarSignIcon className="w-5 h-5 mr-3" /> 
     },
+    { 
+      name: 'Invoice', 
+      path: '/invoice', 
+      icon: <DollarSignIcon className="w-5 h-5 mr-3" /> 
+    },
     // { 
     //   name: 'Custom Dashboard', 
     //   path: '/custom-dashboard', 

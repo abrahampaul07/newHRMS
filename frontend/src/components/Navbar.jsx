@@ -35,7 +35,7 @@ const Navbar = () => {
       {/* Navbar */}
       <nav className="fixed top-0 left-0 right-0 bg-gradient-to-r from-orange-400 to-red-400 text-white shadow-md z-50">
         <div className="max-w-screen-xl mx-auto p-4 flex justify-between items-center">
-          <h1 className="text-3xl font-bold text-white tracking-tight pl-10">HRMS</h1>
+          <Link to='/overview' className="text-3xl font-bold text-white tracking-tight pl-10">HRMS</Link>
 
           {/* Right section (Icons) */}
           <div className="flex items-center space-x-8">

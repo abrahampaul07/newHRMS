@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Invoice = () => {
   // Sample data for Invoices
@@ -87,9 +88,9 @@ const Invoice = () => {
 
       {/* Action buttons */}
       <div className="flex justify-between mt-8">
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-all duration-200 ease-in-out">
+        <Link to= '/invoice' className="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition-all duration-200 ease-in-out">
           View All Invoices
-        </button>
+        </Link>
         <button className="bg-green-600 text-white px-6 py-3 rounded-full hover:bg-green-700 transition-all duration-200 ease-in-out">
           View All Payments
         </button>
